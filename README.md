@@ -4,7 +4,7 @@ A subfield of AI and linguistics which enables computers to understand, interpre
 
 Take in unstructured data and extract structured data from it or metadata.
 
-## Practicals reasons to apply NLP:
+## Practicals reasons to apply NLP
 
 * Named Entity Recognition (NER)
 * Part-of-Speech Tagging (POS)
@@ -13,7 +13,7 @@ Take in unstructured data and extract structured data from it or metadata.
 * Speech-to-text
 * Machine translation (e.g, English to Japanese)
 
-## Theoritical reasons to apply NLP:
+## Theoritical reasons to apply NLP
 
 * Why do we equate _language_ with _intelligence_? (e.g., Turing test)
 
