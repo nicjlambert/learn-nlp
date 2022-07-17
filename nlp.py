@@ -75,3 +75,17 @@ from sklearn.neural_network import MLPClassifier
 
 # you'll learn why scaling is needed later
 from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
+X_train2 = scaler.fit_transform(X_train)
+X_test2 = scaler.transform(X_test)
+
+# model
+# do you get a warning that training hadn't converged?
+# Lesson: deep learning is not a 'plug and play' type of algorithim
+model = MLPClassifier(max_iter=500)
+model.fit(X_train2, y_train)
+
+# evaluate the model's performance
+print(model.score(X_train2, y_train))
+print(model.score(X_test2, y_test ))
